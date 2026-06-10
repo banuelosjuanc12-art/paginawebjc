@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: #fcfcfc;
+}
+
+#contenedor{
+    width: 1300px;
+    height: 950px;
+    background: #ffffff;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.02);
+}
+
+header{
+    width: 1300px;
+    height: 350px;
+    background: #ffffff;
+}
+
+#baner{
+    width: 1300px;
+    height: 350px;
+    background: #ffffff;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    font-size: 85px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 350px;
+    letter-spacing: -2px;
+}
+
+img{
+    width: 350px;
+    height: 150px;
+    object-fit: contain;
+}
+
+nav{
+    height: 75px;
+    width: 1300px;
+    background: #ffffff;
+    text-align: center;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a{
+    color: #999;
+    text-decoration: none;
+    padding: 0 80px;
+    line-height: 75px;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #000;
+}
+
+#izquierda{
+    width: 600px;
+    height: 450px;
+    background: #ffffff;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#derecha{
+    width: 700px;
+    height: 450px;
+    background: #ffffff;
+    float: right;
+    padding: 60px;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+#derecha h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+#derecha p{
+    font-size: 17px;
+    color: #666;
+    line-height: 1.7;
+}
+
+footer{
+    height: 75px;
+    width: 1300px;
+    background: #ffffff;
+    clear: both;
+    line-height: 75px;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: #ccc;
+    border-top: 1px solid #f2f2f2;
+}

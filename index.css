@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #2c2c2c;
+    line-height: 1.6;
+}
+
+#contenedor {
+    max-width: 1200px;
+    margin: 50px auto;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+header {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+#baner {
+    font-size: clamp(40px, 5vw, 80px);
+    font-weight: 300;
+    letter-spacing: -1px;
+    color: #111;
+}
+
+nav {
+    height: 60px;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    color: #666;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+main {
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+    align-items: center;
+}
+
+#izquierda {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#izquierda img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+#derecha {
+    flex: 1.2;
+}
+
+#derecha h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #111;
+    margin-bottom: 25px;
+}
+
+#derecha p {
+    color: #555;
+    font-size: 17px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #999;
+    border-top: 1px solid #eee;
+}

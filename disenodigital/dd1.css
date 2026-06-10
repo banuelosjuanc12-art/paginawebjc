@@ -1,0 +1,150 @@
+**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #fcfcfc;
+}
+
+#contenedor {
+    width: 1300px;
+    min-height: 2725px;
+    background: #ffffff;
+    margin: 40px auto;
+    box-shadow: 0 1px 15px rgba(0,0,0,0.03);
+}
+
+header {
+    width: 100%;
+    height: 350px;
+    background: #ffffff;
+}
+
+#baner {
+    width: 100%;
+    height: 350px;
+    background: #ffffff;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #111;
+    font-size: 85px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 350px;
+    letter-spacing: -2px;
+}
+
+nav {
+    height: 75px;
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    color: #888;
+    text-decoration: none;
+    padding: 0 80px;
+    line-height: 75px;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+main {
+    display: flex;
+    background: #ffffff;
+}
+
+#izquierda {
+    width: 600px;
+    height: 2225px;
+    background: #ffffff;
+}
+
+#izquierda img {
+    height: 650px;
+    width: 500px;
+    display: block;
+    margin: 50px auto;
+    object-fit: cover;
+}
+
+#derecha {
+    width: 700px;
+    height: 2225px;
+    background: #ffffff;
+    padding: 0 60px;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+#derecha h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #111;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#derecha p {
+    font-size: 18px;
+    color: #555;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.bloque2, .bloque3 {
+    background: none;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.bloque2 {
+    margin-top: 575px;
+}
+
+.bloque2 h2, .bloque3 h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.bloque2 p, .bloque3 p {
+    font-size: 18px;
+    color: #555;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.bloque3 {
+    margin-top: 625px;
+}
+
+footer {
+    height: 75px;
+    width: 100%;
+    background: #ffffff;
+    clear: both;
+    line-height: 75px;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: #bbb;
+    border-top: 1px solid #f0f0f0;
+}
